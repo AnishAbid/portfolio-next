@@ -18,8 +18,17 @@ export default function About() {
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
-      <p className="mb-3">
-        After graduating with a degree in{" "}
+      <p className="mb-3 italic">
+        I am a dedicated Senior Software Engineer with over six years of experience in full stack development,
+        specializing in technologies like Next.js, React.js, Node.js, Nest.js, Express.js, Angular, and MongoDB.
+        My passion lies in building scalable, user-centric web applications that solve real-world problems.
+        I thrive in collaborative environments, managing teams to deliver high-quality projects that exceed client expectations.
+        Throughout my career, I’ve led multiple projects across various industries, including real estate, freelancing platforms,
+        audit applications, SaaS, and live streaming, consistently delivering innovative solutions.
+        I’m always eager to embrace new challenges and continuously improve both my technical and leadership skills.
+
+
+        {/* After graduating with a degree in{" "}
         <span className="font-medium">Accounting</span>, I decided to pursue my
         passion for programming. I enrolled in a coding bootcamp and learned{" "}
         <span className="font-medium">full-stack web development</span>.{" "}
@@ -33,16 +42,17 @@ export default function About() {
         . I am also familiar with TypeScript and Prisma. I am always looking to
         learn new technologies. I am currently looking for a{" "}
         <span className="font-medium">full-time position</span> as a software
-        developer.
+        developer. */}
       </p>
 
       <p>
         <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
+        video games, watching movies.
+        {/* I also enjoy{" "}
         <span className="font-medium">learning new things</span>. I am currently
         learning about{" "}
         <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        learning how to play the guitar. */}
       </p>
     </motion.section>
   );

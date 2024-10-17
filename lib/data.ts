@@ -1,10 +1,10 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import { FaPhp } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io";
+import { RiAngularjsLine } from "react-icons/ri";
+import fanveave from "@/public/fanweave/1.png";
+import alchemist from "@/public/alchemist/1.png";
+import audit from "@/public/audit/1.png";
 
 export const links = [
   {
@@ -35,65 +35,62 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Amoxt",
+    location: "Lahore,Pakistan",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
+      "As a Junior Developer at AMOXT in 2017, I was responsible for developing an API-based educational platform that enabled users to participate in live lectures from anywhere in the world. This project provided a great opportunity to work on both the back-end and front-end of the application, utilizing PHP, CodeIgniter, MySQL, and AWS.",
+    icon: React.createElement(FaPhp),
+    date: "2017",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "IT-Boost",
+    location: "Lahore,Pakistan",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "As a MEAN Stack Developer at IT-Boost from 2018 to 2020, I contributed to the development of a cloud-based unified platform designed for IT service providers, offering documentation, password management, customer feedback, and business intelligence features. My role involved full stack development using Angular.js, Node.js, Express.js, and MongoDB, where I collaborated with cross-functional teams to deliver scalable and efficient solutions.",
+    icon: React.createElement(RiAngularjsLine),
+    date: "2018 - 2020",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Conovo",
+    location: "UK",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "As a Senior Software Engineer at Conovo Technologies from 2020 to the present, I have been responsible for leading the development of several key projects, including Alchemist, a real estate platform, and other high-impact applications. In this role, I have managed a team of five developers, overseeing sprint planning, task allocation, and code reviews, ensuring the timely and successful delivery of projects.",
+    icon: React.createElement(IoLogoJavascript),
+    date: "2020 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Alchemist",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "As the Tech Lead on this project, I led a team of five developers, overseeing sprint management, conducting code reviews, and coordinating all technical aspects of the project.",
+    tags: ["React", "Next", "MongoDB", "Node", "Nest", "GraphQl"],
+    imageUrl: alchemist,
   },
   {
-    title: "rmtDev",
+    title: "Fanweave",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Worked as Tech Lead. Beside development in this project.I designed application flow, data base and architechture of the application",
+    tags: ["React", "Node", "Redux", "Agenda", "MongoDB"],
+    imageUrl: fanveave,
   },
   {
-    title: "Word Analytics",
+    title: "Audit-App",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Developed this Project as MERN Stach Developer.Handle client communication, Sprint panning and other managment aspects as well",
+    tags: ["React", "Node", "Express", "MonogoDB"],
+    imageUrl: audit,
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
   "JavaScript",
   "TypeScript",
   "React",
   "Next.js",
   "Node.js",
   "Git",
-  "Tailwind",
   "Prisma",
   "MongoDB",
   "Redux",
@@ -103,5 +100,4 @@ export const skillsData = [
   "PostgreSQL",
   "Python",
   "Django",
-  "Framer Motion",
 ] as const;
