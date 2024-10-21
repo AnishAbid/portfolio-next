@@ -1,5 +1,5 @@
 "use client";
-
+import profile from "@/public/profile/1.jpg";
 import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
@@ -31,7 +31,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=368&h=368&q=100"
+              src={profile}
               alt="Ricardo portrait"
               width="192"
               height="192"
@@ -100,7 +100,7 @@ export default function Intro() {
 
         <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="www.linkedin.com/in/anish-abid-a70a90154"
+          href="https://www.linkedin.com/in/anish-abid-a70a90154"
           target="_blank"
         >
           <BsLinkedin />
