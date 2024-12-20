@@ -1,5 +1,5 @@
 "use client";
-import profile from "@/public/profile/1.jpg";
+import profile from "@/public/profile/1.png";
 import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";

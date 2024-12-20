@@ -5,6 +5,7 @@ import { RiAngularjsLine } from "react-icons/ri";
 import fanveave from "@/public/fanweave/1.png";
 import alchemist from "@/public/alchemist/1.png";
 import audit from "@/public/audit/1.png";
+import sparvis from "@/public/sparvis/1.png";
 
 export const links = [
   {
@@ -81,6 +82,13 @@ export const projectsData = [
       "Developed this Project as MERN Stach Developer.Handle client communication, Sprint panning and other managment aspects as well",
     tags: ["React", "Node", "Express", "MonogoDB"],
     imageUrl: audit,
+  },
+  {
+    title: "Sparvis",
+    description:
+      "Sparvis is an MVP that unifies casino services and hotel management, streamlining operations with features for reservations, customer profiles, and service management.",
+    tags: ["React", "Node", "Express", "MonogoDB"],
+    imageUrl: sparvis,
   },
 ] as const;
 
